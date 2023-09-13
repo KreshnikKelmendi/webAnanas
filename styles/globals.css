@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 1px solid red;
+} */
+:root {
+  --green-main: #65ac45;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: Ubuntu !important;
+}
+
+input {
+  font-family: Ubuntu !important;
+}
+textarea {
+  font-family: Ubuntu !important;
+}
+.footer-text {
+  font-family: Ubuntu !important ;
+  color: white;
+}
+
+.button-white {
+  background-image: url(../public/button-white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+}
+.button-green {
+  background-image: url(../public/button-green.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+}
+.button-red {
+  background-image: url(../public/button-red.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+}
+
+.button-orange {
+  background-image: url(../public/button-orange.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+}
+.button-hover {
+  background: transparent;
+}
+.button-hover:hover {
+  background-image: url(../public/button-brown.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+}
+.button-brown {
+  background-image: url(../public/button-brown.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+}
+.menu-focused-bg {
+  background-image: url(../public/button-red.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+}
+.about-us {
+  background-image: url(../public/aboutUsIlu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sliders-background {
+  background-image: url(../public/sliderBackgroundFinal.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+}
+.slider-background-inverted {
+  background-image: url(../public/sliderBackgroundFinal.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: cover;
+}
+
+.slider-button-bg {
+  background-image: url(../public/sliderAssets/sliderbuttonBG.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.slider-button-active {
+  background-image: url(../public/sliderAssets/sliderButtonActiveBg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.submit-button {
+  background-image: url(../public/submit-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+  font-family: Ubuntu !important ;
+}
+.footer-background {
+  background-image: url(../public/footerBackground.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+ 
+}
+
+.mask {
+  -webkit-mask-image: url(../public/green-blob-about-us.svg);
+  mask-image: url(../public/green-blob-about-us.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+.footerBgMobile {
+  background-image: url(../public/footerMob.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.mapMaskMobile {
+  -webkit-mask-image: url(../public/green-blob-about-us.svg);
+  mask-image: url(../public/green-blob-about-us.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+.mobMenuActive {
+  background-image: url(../public/mobMenActive.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.bo:hover {
+  background-image: url(../public/button-orange.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  color: white;
+}
+
+.kontaktiBg {
+  background-image: url(../public/kontaktiBg.png);
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: cover;
+}
+.dropdown-orange {
+  background-image: url(../public/button-orange.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  color: white;
+}
+@keyframes scroll {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.animate {
+  animation: scroll 55s linear infinite;
+}

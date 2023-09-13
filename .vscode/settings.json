@@ -1,0 +1,20 @@
+{
+  "workbench.colorCustomizations": {},
+  "background.enabled": true,
+  "workbench.activityBar.visible": true,
+  "workbench.activityBar.iconClickBehavior": "toggle",
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 14,
+  "editor.cursorStyle": "underline",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSurroundingLines": 0,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorWidth": 1,
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
+  "terminal.integrated.splitCwd": "inherited",
+  "workbench.panel.defaultLocation": "right",
+  "terminal.explorerKind": "integrated"
+}
