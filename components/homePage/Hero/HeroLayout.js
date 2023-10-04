@@ -14,6 +14,7 @@ const HeroLayout = () => {
   const isMobile = size.width < 768;
   const isGigantic = size.width > 1440;
   const buttonText = t("readMore");
+  
   return (
     <>
       <div
@@ -26,7 +27,7 @@ const HeroLayout = () => {
             isMobile ? "h-screen" : "h-[48.33vw]"
           } relative`}
         >
-          <Image src="/a-farm-field-planted-with-pepper-crops-2022-11-09-06-37-54-utc 1.png" fill className="object-cover" />
+          <Image src="/a-farm-field-planted-with-pepper-crops-2022-11-09-06-37-54-utc 1.png" fill className="object-cover"alt="" />
           <motion.div className="ml-desktop top-16 md:top-[16vw] md:h-[18vw] h-[69vw] md:w-[38vw] w-[89vw] relative flex md:items-start justify-center flex-col lg:pl-20 items-center px-10 2xl:px-32">
             <BannerBlob
               bgColor={"#65AC45"}

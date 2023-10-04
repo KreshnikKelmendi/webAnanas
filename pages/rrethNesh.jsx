@@ -13,20 +13,29 @@ const RrethNesh = () => {
 
   const SliderData = [
     {
-      image: "/rrethNesh/slider/foto1.png",
+      image: "/rrethNesh/slider/fabrikaAnanasSlide.png",
       text: t("sliderOne"),
     },
-
     {
-      image: "/rrethNesh/slider/foto2.png",
+      image: "/rrethNesh/slider/firstSlide.png",
+      text: t("sliderOne"),
+    },
+    {
+      image: "/rrethNesh/slider/secondSlide.png",
       text: "Kontrata në mes të gumpanise për prodhimin e biberit “BESIANA” dhe Qendrës grumbulluese “AGROCELINA”. Me datën 23.03.2017 është nënshkruar kontrata në mes të Kompanisë për prodhimin e biberit “BESIANA” dhe Qendrës grumbulluese “AGROCELINA” për kultivimin e specit të kuq të varietetit ne siperfaqe prej 50 hektar. Fermerët më të mirë do të kontraktohen për prodhimin e këtij speci. Kontraktimi e fermereve po bëhet qe disa vite dhe është bërë një re-freskim i traditës 90 vjeqare të Kompanisë ‘Besiana’ nga Podujeva. Farmerëve ju urojmë që punët t’ju ecin mbarë edhe këtë vit. Në njejtët kohë, i falenderojmë KONSUMATORET tonë për perdorimin e produkteve tona - janë pikerisht ata që caktojnë hapsirën e tokës që mbjell me këtë lloj speci.",
     },
-
     {
-      image: "/rrethNesh/slider/foto2.png",
+      image: "/rrethNesh/slider/thirdSlide.png",
       text: "Kontrata në mes të gumpanise për prodhimin e biberit “BESIANA” dhe Qendrës grumbulluese “AGROCELINA”. Me datën 23.03.2017 është nënshkruar kontrata në mes të Kompanisë për prodhimin e biberit “BESIANA” dhe Qendrës grumbulluese “AGROCELINA” për kultivimin e specit të kuq të varietetit ne siperfaqe prej 50 hektar. Fermerët më të mirë do të kontraktohen për prodhimin e këtij speci. Kontraktimi e fermereve po bëhet qe disa vite dhe është bërë një re-freskim i traditës 90 vjeqare të Kompanisë ‘Besiana’ nga Podujeva. Farmerëve ju urojmë që punët t’ju ecin mbarë edhe këtë vit. Në njejtët kohë, i falenderojmë KONSUMATORET tonë për perdorimin e produkteve tona - janë pikerisht ata që caktojnë hapsirën e tokës që mbjell me këtë lloj speci.",
-    },
+    },{
+      image: "/rrethNesh/slider/fourthSlide.png",
+      text: t("sliderOne"),
+    },{
+      image: "/rrethNesh/slider/fifthSlide.png",
+      text: t("sliderOne"),
+    }
   ];
+
   const size = useWindowSize();
   const isMobile = size.width < 768;
   
@@ -41,7 +50,8 @@ const RrethNesh = () => {
           <Image
             src="/rrethNeshBG.png"
             fill
-            className="object-cover h-full md:w-full  mt-42 md:mt-20 "
+            className="object-cover h-full md:w-full  mt-42 md:mt-20"
+            alt=""
           />
         </motion.div>
 
@@ -86,13 +96,14 @@ const RrethNesh = () => {
             src="/rrethNesh/fotoProdhimet.png"
             fill
             className="object-contain h-full w-full"
+            alt=""
           />
         </div>
         <div className="md:w-1/2 pr-desktop pl-10 z-40 w-full">
           <h1 className="text-green-main md:text-headerTwoDesktop text-mobH3">
-            Prodhimet
+            {t('productName')}
           </h1>
-          <p>{t("products")}</p>
+          {t("products")}
         </div>
       </div>
   
@@ -106,9 +117,9 @@ const RrethNesh = () => {
         className="bg-red-main mt-desktop flex flex-col items-center
       justify-around py-0"
       >
-         <img src='/7I3A0084 1.png' alt="" />
+         {/* <img src='/7I3A0084 1.png' alt="" className="object-cover rrethNeshPhoto" /> */}
         <h1 className="my-10 text-white md:text-headerTwoDesktop text-mobH3">
-          Galeria
+          {t('galery')}
         </h1>
         <div>
           <HorizontalSlider sliderData={SliderData} />

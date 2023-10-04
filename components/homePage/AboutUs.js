@@ -88,6 +88,7 @@ export default function AboutUs() {
               src="/Mask group (1).png"
               fill
               className=" object-contain"
+              alt=""
             />
           </motion.div>
         </div>

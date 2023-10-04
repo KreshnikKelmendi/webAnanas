@@ -1,8 +1,10 @@
 {
-  "heroText": "Give taste to your cooking with our products!",
+  "heroText": "Add flavor to your cooking with our products!",
   "readMore": "Read More",
   "aboutUs": "About Us", 
-  "aboutUsText" : "We are a company whose main activity is the cultivation and production of herbs, spices, soups, and dried vegetables. Our brands are sold in the most popular supermarkets in the country and beyond, while our customers range from individuals who order by the pound to restaurants, grocery stores and wholesalers.",
+  "aboutUsText" : "We are a company that grows and produces herbs, spices, soups and dried vegetables. You can find our brands in the most popular local and international markets.",
   "ourBrands" : "Our Brands",
-  "fA" : "Fill up entire shelves in supermarkets huhuhujahs."
+  "fA" : "Add flavour to every recipe!",
+  "partnerHeader": "Partners",
+  "partnerText": "The development of our company has been given value by cooperation with these partners:"
 }

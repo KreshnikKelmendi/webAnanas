@@ -95,10 +95,10 @@ const MobileMenu = () => {
           </div>
           <div className={`${path == "/brendet" && "mobMenuActive"} w-full`}>
           <Link href="/brendet">
-              <h1 className={`w-full text-end cursor-pointer `}>
+              {/* <h1 className={`w-full text-end cursor-pointer `}>
                 {" "}
                 {t("brands")}
-              </h1>
+              </h1> */}
               <div
               onClick={() => {
                 setDropdown(!dropDown);
@@ -118,19 +118,22 @@ const MobileMenu = () => {
                   <Link href="/brendet/bonafide">
                     <h2 className="text-2xl">Bonafide</h2>
                   </Link>
+                  <Link href="/brendet/others">
+                    <h2 className="text-2xl">{t('oth')}</h2>
+                  </Link>
                 </div>
               {/* )} */}
             </div>
             </Link>
            
           </div>
-          <div className={`${path == "/partneret" && "mobMenuActive"} w-full`}>
+          {/* <div className={`${path == "/partneret" && "mobMenuActive"} w-full`}>
             <Link href="/partneret">
               <h1 className={`w-full text-end cursor-pointer `}>
                 {t("partnership")}
               </h1>
             </Link>
-          </div>
+          </div> */}
           <div className={`${path == "/kontakti" && "mobMenuActive"} w-full`}>
             <Link href="/kontakti">
               <h1 className={`w-full text-end cursor-pointer `}>

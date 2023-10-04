@@ -6,6 +6,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import useWindowSize from "../hooks/useWindowSize";
+
 export default function Menu() {
   const [isHover, setIsHover] = useState(false);
 
@@ -92,6 +93,15 @@ export default function Menu() {
                 <p>Bonafide</p>
               </Link>
             </motion.li>
+            <motion.li
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1, transition: { delay: 0.3 } }}
+              className="py-2 button-hover"
+            >
+              <Link href="/brendet/others" className="h-full" locale={locale}>
+                <p>{t("oth")}</p>
+              </Link>
+            </motion.li>
           </motion.ul>
         )}
         {isHover && (
@@ -99,7 +109,7 @@ export default function Menu() {
             <motion.svg
               initial={{ height: "3rem" }}
               animate={{
-                height: is2xl ? "16rem" : "14rem",
+                height: is2xl ? "16rem" : "17rem",
                 transition: { duration: 0.2 },
               }}
               width="10vw"
@@ -116,7 +126,7 @@ export default function Menu() {
       </div>
       
 
-      <Link href="/partneret" locale={locale}>
+      {/* <Link href="/partneret" locale={locale}>
         <p
           className={`cursor-pointer px-4 py-8 ${
             path == "/partneret" && "button-orange"
@@ -124,7 +134,7 @@ export default function Menu() {
         >
            {t("partnership")}
         </p>
-      </Link>
+      </Link> */}
 
       <Link href="/kontakti" locale={locale}>
         <p

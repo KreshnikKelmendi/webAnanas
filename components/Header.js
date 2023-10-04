@@ -16,6 +16,7 @@ const Header = () => {
   const isMobile = size.width < 768;
   const isTablet = size.width < 1080;
   const isGigantic = size.width > 1920;
+  
   return (
     <header
       className={` ${

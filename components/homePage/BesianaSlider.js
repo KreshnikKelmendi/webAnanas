@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 //componenets
 import BannerBlob from "../BannerBlob";
@@ -18,21 +18,21 @@ export default function BesianaSlider() {
       title: t("s1Header"),
       description: t("s1Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/bkuq2.png",
+      image: "/sliderAssets/speciKuqBluar500.png",
     },
     {
       id: "02",
       title: t("s2Header"),
       description: t("s2Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/bzi.png",
+      image: "/sliderAssets/piper50gr.png",
     },
     {
       id: "03",
       title: t("s3Header"),
       description: t("s3Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/bkuq1.png",
+      image: "/sliderAssets/shtypurSpecBesiana.png",
     },
   ];
 
@@ -53,7 +53,7 @@ export default function BesianaSlider() {
               viewBox="0 0 145 65"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className=" z-30 "
+              className="z-30"
             >
               <g clip-path="url(#clip0_45_522)">
                 <path

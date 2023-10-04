@@ -13,7 +13,7 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
   return (
     <section className="">
       <div className={`relative w-full h-full z-40 `}>
-        <div className=" absolute w-screen  flex flex-col items-center justify-center">
+        <div className="absolute w-screen flex flex-col items-center justify-center">
           <div className="absolute flex flex-col items-center w-full">
             <div className="">
               {logo === 0 ? (
@@ -33,8 +33,8 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
           </div>
           <svg
             width="1920"
-            height="520"
-            viewBox="0 0 1920 520"
+            height="500"
+            viewBox="0 0 1920 500"
             fill="red"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -52,9 +52,9 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
           </svg>
         </div>
       </div>
-      <div className="h-[36vh]"></div>
+      <div className="h-[56vh] 2xl:h-[20vh]"></div>
       <div className="z-30">
-        {data.map((item, index) => {
+        {data?.map((item, index) => {
           return (
             <div
               key={item.id}
@@ -62,22 +62,31 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
                 item.bottom && isMobile && "h-[120vh]"
               } ${index === 0 && ""}`}
             >
-              <Image src={item.img} fill className={`object-cover`} />
+              <Image src={item.img} fill className={`object-cover`} alt="" />
               {v2 ? (
                 <BlobV2
                   color={item.color}
                   header={item.header}
+                  header1={item.header1}
                   text={item.text}
                   left={item.left}
                   bottom={item.bottom}
                   fill={item.fill}
                   mini={item.mini ?? false}
                   vleraE={item.vleraE}
+                  kalorike={item.kalorike}
                   yndryat={item.yndyrat}
+                  vleratYndyrore={item.vleratYndyrore}
                   karb={item.karb}
+                  vleratKarbohidrate={item.vleratKarbohidrate}
                   prot={item.prot}
+                  vleratProteines={item.vleratProteines}
                   krip={item.krip}
+                  vleratKripes={item.vleratKripes}
+                  natriumiV={item.natriumiV}
+                  hiriV={item.hiriV}
                   koha={item.koha}
+                  kohaM={item.koha}
                   sasia={item.sasia}
                 />
               ) : (

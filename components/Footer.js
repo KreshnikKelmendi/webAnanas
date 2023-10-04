@@ -1,6 +1,7 @@
 import Image from "next/image";
 import useWindowSize from "../hooks/useWindowSize";
 import { useRouter } from "next/router";
+
 const Footer = () => {
   const router = useRouter();
   const path = router.pathname;
@@ -111,7 +112,7 @@ const Footer = () => {
             </svg>
             {isTablet && (
               <div className="relative w-32 h-20">
-                <Image src="/moto.png" fill className="object-contain" />
+                <Image src="/moto.png" fill className="object-contain" alt=""/>
               </div>
             )}
           </div>
@@ -121,8 +122,8 @@ const Footer = () => {
           {/* phone */}
           <div className="flex flex-row md:flex-col items-center lg:col-span-2  col-span-5 ">
             <svg
-              width={"38"}
-              height={"39"}
+              width={"30"}
+              height={"37"}
               viewBox="0 0 38 39"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -163,8 +164,8 @@ const Footer = () => {
           {/* location */}
           <div className="flex flex-row md:flex-col md:items-center col-span-5 lg:col-span-2 items-start">
             <svg
-              width="38"
-              height="39"
+              width="30"
+              height="37"
               viewBox="0 0 38 39"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -204,8 +205,8 @@ const Footer = () => {
           {!isMobile && (
             <div className="flex md:flex-col items-center col-span-5 lg:col-span-2       ">
               <svg
-                width="40"
-                height="40"
+                width="30"
+                height="37"
                 viewBox="0 0 40 40"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -245,8 +246,9 @@ const Footer = () => {
           )}
           {/* facebook */}
           <div className="flex flex-row md:flex-col items-center col-span-5 lg:col-span-2       ">
+          <a href="https://www.facebook.com/ananasimpex" target="_blank" rel="noreferrer">
             <svg
-              width="36"
+              width="30"
               height="37"
               viewBox="0 0 36 37"
               fill="none"
@@ -281,15 +283,16 @@ const Footer = () => {
                 fill="#67AE3E"
               />
             </svg>
-
+          </a>
             <div className="text-white md:pt-4 md:text-sm text-[2.8vw] pl-2 md:pl-0">
-              <p>Facebook</p>
+             <p>Facebook</p>
             </div>
           </div>
           {/* insta */}
           <div className="flex flex-row md:flex-col items-center col-span-5 lg:col-span-2       ">
+            <a href="https://instagram.com/ananasimpex" target="_blank" rel="noreferrer">
             <svg
-              width="37"
+              width="30"
               height="37"
               viewBox="0 0 37 37"
               fill="none"
@@ -320,7 +323,7 @@ const Footer = () => {
                 fill="#67AE3E"
               />
             </svg>
-
+            </a>
             <div className="text-white md:pt-4 md:text-sm text-[2.8vw] pl-2 md:pl-0">
               <p>Instagram</p>
             </div>
@@ -373,7 +376,7 @@ const Footer = () => {
         {!isTablet && (
           <div className="pt-[10vw] h-full items-start flex">
             <div className="relative w-32 h-20">
-              <Image src="/moto.png" fill className="object-contain" />
+              <Image src="/moto.png" fill className="object-cover" alt="" />
             </div>
           </div>
         )}
@@ -385,8 +388,8 @@ const Footer = () => {
         w-2/3 pl-4"
         >
           <div>
-            <p className=" text-xs">
-              Copyright © 2022 ANANAS Impex. All Rights Reserved.
+            <p className="text-xs">
+              Copyright © 2023 ANANAS Impex. All Rights Reserved.
             </p>
           </div>
           <div className="flex-row flex lg:px-10 text-xs">
@@ -400,6 +403,7 @@ const Footer = () => {
             src="/EU4K_Logo_Color_RGB242 (1) 1.png"
             fill
             className="object-contain"
+            alt=""
           />
         </div>
       </div>

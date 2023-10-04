@@ -2,6 +2,7 @@ import { motion, useDragControls } from "framer-motion";
 import Image from "next/image";
 import { useState, useRef } from "react";
 import useWindowSize from "../hooks/useWindowSize";
+
 //fix drag for mobile
 const HorizontalSlider = ({ sliderData }) => {
   //imgRef
@@ -35,7 +36,7 @@ const HorizontalSlider = ({ sliderData }) => {
   };
 
   return (
-    <div className="flex flex-col px-desktop w-full lg:h-[50vw] md:h-[65vw] md:max-h-screen z-30 overflow-hidden items-center justify-around h-screen">
+    <div className="flex flex-col px-desktop w-full lg:h-[30vw] md:h-[65vw] md:max-h-screen z-30 overflow-hidden items-center justify-around h-screen">
       {/* slider nav and picture */}
       <div className="flex h-[30%] z-30  items-center justify-center">
         {/* slider prev button */}
@@ -122,13 +123,14 @@ const HorizontalSlider = ({ sliderData }) => {
                     opacity: !isCurrent && !isPrev && !isNext ? "0.4" : "1",
                     transition: { duration: 0.5 },
                   }}
-                  className={`lg:w-[26vw] lg:max-w-[26vw] md:w-[26vw]  relative h-[30vh] flex flex-shrink-0 w-[80vw]
+                  className={`lg:w-[26vw] lg:max-w-[26vw] md:w-[26vw]  relative h-[32vh] flex flex-shrink-0 w-[80vw]
                 flex-wrap-nowrap items-center justify-center transition-all duration-500 ease-out  `}
                 >
                   <Image
                     src={data.image}
                     fill
                     style={{ objectFit: "contain" }}
+                    alt=""
                   />
                 </motion.div>
               );
@@ -172,7 +174,7 @@ const HorizontalSlider = ({ sliderData }) => {
       </div>
       {/* slider text */}
       <p className="text-white text-sm lg:w-1/2 w-full">
-        {sliderData[currentSlide].text}
+        {/* {sliderData[currentSlide].text} */}
       </p>
     </div>
   );

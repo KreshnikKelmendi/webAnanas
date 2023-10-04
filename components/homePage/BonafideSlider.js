@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 //componenets
 import BannerBlob from "../BannerBlob";
@@ -18,29 +18,43 @@ export default function BonafideSlider() {
       title: t("s1Header"),
       description: t("s1Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/spule.png",
+      image: "/sliderAssets/supePuleBonafida.png",
     },
     {
       id: "02",
       title: t("s2Header"),
       description: t("s2Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/svici.png",
+      image: "/sliderAssets/supeViciBonafida.png",
     },
     {
       id: "03",
       title: t("s3Header"),
       description: t("s3Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/sperime.png",
+      image: "/sliderAssets/supePerimeshBonafida.png",
     },
     {
       id: "04",
       title: t("s4Header"),
       description: t("s4Text"),
       variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/gullashi 1.png",
+      image: "/sliderAssets/gullashBonafida.png",
     },
+    {
+      id: "05",
+      title: t("s5Header"),
+      description: t("s5Text"),
+      variants: ["250g", "500g", "1000g"],
+      image: "/sliderAssets/bologneze.png",
+    },
+    {
+      id: "06",
+      title: t("s6Header"),
+      description: t("s6Text"),
+      variants: ["250g", "500g", "1000g"],
+      image: "/sliderAssets/salceDomatesh.png",
+    }
   ];
 
   return (
@@ -103,12 +117,7 @@ export default function BonafideSlider() {
             </svg>
           </div>
           <p className="md:text-paragraphDesktop text-white font-medium pt-8 text-mobParagraph px-desktop md:px-0 text-center md:text-left">
-            Provojini supat Bonafide me këto tri shije: të pulës, të viçit dhe
-            me perime. Përbërësit e supave janë mjaft të ekuilbruar, që do të
-            thotë se sasia e kripës, yndyrës dhe kalorive mbetet te normat
-            mesatare, të cilat janë të pranueshme për shumicën dërmuese të
-            konsumatorëve. Kënaqësia e supës së vërtetë me vetëm pesë minuta
-            përgatitje.
+            {t('title')}
           </p>
           {!isMobile && (
             <div className="w-full flex justify-center md:justify-start pt-10 md:pt-0">

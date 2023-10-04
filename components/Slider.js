@@ -107,7 +107,8 @@ const Slider = ({ slideData, inverted, color }) => {
                     src={slide.image}
                     fill
                     style={{ objectFit: "contain" }}
-                    className="scale-75 "
+                    className="scale-75"
+                    alt="slideR"
                   />
                 </motion.div>
               );
@@ -195,6 +196,7 @@ const Slider = ({ slideData, inverted, color }) => {
                 src={slides[currentSlide].image}
                 fill
                 className="object-contain"
+                alt="slidePos"
               />
             </motion.div>
           )}
@@ -271,6 +273,7 @@ const Slider = ({ slideData, inverted, color }) => {
                 src={slides[currentSlide].image}
                 fill
                 style={{ objectFit: "contain" }}
+                alt="sliderPosition"
               />
             </motion.div>
           )}
@@ -369,6 +372,7 @@ const Slider = ({ slideData, inverted, color }) => {
                       fill
                       style={{ objectFit: "contain" }}
                       className="scale-75"
+                      alt="sliderR"
                     />
                   </motion.div>
                 );

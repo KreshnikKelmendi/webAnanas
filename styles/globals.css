@@ -195,6 +195,40 @@ textarea {
   background-position: contain;
   background-size: cover;
 }
+.partnershipBg{
+  background-image: url(../public/brandImages/group160.png);
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: cover;
+}
+.headingBesiana{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  /* left: 50%; */
+}
+.headingVegiana{
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+.headingBonafide{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.secondPartOfHeading{
+  position: absolute;
+  top: 22%;
+  left: 40%;
+  color: white;
+}
+.thirdPartOfHeading{
+  position: absolute;
+  top: 22%;
+  left: 35%;
+  color: white;
+}
 .dropdown-orange {
   background-image: url(../public/button-orange.svg);
   background-repeat: no-repeat;
@@ -212,6 +246,110 @@ textarea {
   }
 }
 
+
 .animate {
   animation: scroll 55s linear infinite;
 }
+.rrethNeshPhoto{
+  height: 35vw;
+}
+
+@media screen and (max-width: 820px) {
+  .headingBesiana{
+    top: 15px;
+  }
+  .headingBesiana img{
+    width: 40%;
+  }
+  .headingBesiana{
+    top: 15%;
+  }
+  .headingVegiana img{
+    width: 35%;
+  }
+  .headingVegiana{
+    left: 5%;
+    top: 30%;
+  }
+  .headingBonafide{
+    width: 35%;
+  }
+  .headingBonafide{
+    left: 5%;
+    top: 30%;
+  }
+  .thirdPartOfHeading h1{
+    width: fit-content;
+  }
+  .thirdPartOfHeading{
+    top: 8%;
+    left: 40%;
+    padding: 0 2px;
+  }
+  .secondPartOfHeading{
+    position: absolute;
+    top: 8%;
+    padding: 0 2px;
+  }
+  .thirdPartOfHeading h3{
+    font-size: 12px;
+    width: fit-content;
+    margin-top: 10%;
+    line-height: 14px;
+  }
+  .secondPartOfHeading h3{
+   font-size: 12px;
+   width: fit-content;
+   margin-top: 10%;
+   line-height: 14px;
+  }
+  .secondPartOfHeading h1{
+    width: fit-content;
+  }
+  .brandsPhotos{
+    height: 40vh;
+    object-fit: fill;
+  }
+  .rrethNeshPhoto{
+    height: 75vw;
+  }
+}
+
+
+@media screen and (min-width: 1800px) {
+  .secondPartOfHeading h1{
+    line-height: 45px;
+  }
+  .thirdPartOfHeading h1{
+    line-height: 45px;
+  }
+  .thirdPartOfHeading{
+    top: 28%;
+  }
+  .headingVegiana{
+    top: 28%;
+  }
+  .headingBonafide{
+    top: 28%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 2.2vh;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(177, 226, 177);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(155, 158, 179, 0.63);
+}
+
