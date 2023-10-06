@@ -126,7 +126,7 @@ const Brendet = () => {
                  alt=""
           />
           <div className="headingVegiana">
-            <Image src="/brandImages/groupVegiana44.png" 
+            <Image src="/brandImages/pngVegoana.png" 
                    alt="" 
                    width={300} 
                    height={350}

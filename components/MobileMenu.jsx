@@ -122,7 +122,7 @@ const MobileMenu = () => {
                     <h2 className="text-2xl">{t('oth')}</h2>
                   </Link>
                 </div>
-              {/* )} */}
+               {/* )}  */}
             </div>
             </Link>
            

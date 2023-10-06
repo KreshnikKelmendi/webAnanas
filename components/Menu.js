@@ -81,7 +81,7 @@ export default function Menu() {
               className="py-2 button-hover"
             >
               <Link href="/brendet/vegiana" className="h-full" locale={locale}>
-                <p>Vegiana</p>
+                <p>Vegoana</p>
               </Link>
             </motion.li>
             <motion.li

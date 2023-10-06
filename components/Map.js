@@ -15,8 +15,7 @@ const Map = () => {
     <iframe
       className="md:h-[60vw] md:w-[40vw] md:mask
       h-[60vh] w-[80vw] mapMaskMobile"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.380869817903!2d21.19081281540465!3d42.90700780837733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354aeb47fb1b2fb%3A0xe7b4d025479a3582!2sZahir%20Pajaziti%2C%20Besian%C3%AB!5e0!3m2!1sen!2sch!4v1672780503097!5m2!1sen!2sch"
-      style={{
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23376.412522249262!2d21.190029364415633!3d42.91395345506029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354aea1a29a7bcf%3A0x3c039becb1c8cd66!2sAnanas%20Impex!5e0!3m2!1sen!2s!4v1696566098506!5m2!1sen!2s"      style={{
         border: 0,
       }}
       allowfullscreen=""

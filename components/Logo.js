@@ -9,8 +9,9 @@ const Logo = () => {
   const isTablet = size.width < 1080;
   const isGigantic = size.width > 1440;
   const [isHover, setIsHover] = useState(false);
+
   return (
-    <div className="z-50 ">
+    <div className="z-50 flex">
       <Link href="/">
         <motion.svg
           width="39"
@@ -59,6 +60,7 @@ const Logo = () => {
           />
         </motion.svg>
       </Link>
+      <h5 className="text-white  px-3 text-3xl fontBellarina">since 1930</h5>
     </div>
   );
 };

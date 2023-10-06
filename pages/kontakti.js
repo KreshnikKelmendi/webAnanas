@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import useWindowSize from "../hooks/useWindowSize";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 const Kontakti = () => {
   const { t } = useTranslation("contact");
   const size = useWindowSize();
@@ -121,10 +122,8 @@ const Kontakti = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <div className="text-sm">
-                  <p>+381 (0) 38 570 974</p>
-                  <p>+377 (0) 44 241 688</p>
-                  <p>+377 (0) 44 163 396</p>
+                <div className="text-sm my-2">
+                  <p>+383 (0) 49 301 800</p>
                 </div>
               </div>
             )}

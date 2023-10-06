@@ -59,7 +59,7 @@ const RrethNesh = () => {
           <h1 className="z-30 text-orange-main pt-desktop md:text-headerTwoDesktop text-mobH3">
             {t("aboutUs")}
           </h1>
-          <p className="md:w-1/2 w-full px-10 z-30 text-center text-mobParagraph md:text-paragraphDesktop">
+          <p className="md:w-1/2 w-full text-sm px-10 z-30 text-center text-mobParagraph md:text-paragraphDesktop">
             {t("aboutUsText")}
           </p>
         </div>

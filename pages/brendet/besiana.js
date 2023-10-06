@@ -75,6 +75,7 @@ const Besiana = () => {
       tags: ["100GR", "200GR", "500GR", "1000GR"],
       left: false,
       bottom: true,
+      specific:"/brendet/besiana/shtypurSpecBesiana.png"
     },
     {
       id: 2,
@@ -86,6 +87,7 @@ const Besiana = () => {
       tags: ["250GR", "500GR", "1000GR"],
       left: true,
       bottom: false,
+      specific:"/brendet/besiana/speciKuqBluar500.png"
     },
     {
       id: 3,
@@ -97,6 +99,7 @@ const Besiana = () => {
       tags: ["250GR", "500GR", "1000GR"],
       left: false,
       bottom: false,
+      specific:"/brendet/besiana/bluarPiperZi (1).png"
     },
   ];
 
@@ -117,6 +120,7 @@ const Besiana = () => {
     </div>
   );
 };
+
 export default Besiana;
 
 export async function getStaticProps({ locale }) {

@@ -86,7 +86,7 @@ export default function VegianaSlider() {
         <div className="md:ml-desktop py-desktop md:w-1/3 w-screen md:flex-col items-center md:items-start md:p-2">
           {/* logo */}
           <div className="w-full flex justify-center md:justify-start ">
-            <svg
+            {/* <svg
               width="172"
               height="52"
               viewBox="0 0 172 52"
@@ -252,9 +252,11 @@ export default function VegianaSlider() {
                   <rect width="172" height="52" fill="white" />
                 </clipPath>
               </defs>
-            </svg>
+            </svg> */}
+                <Image src="/brendet/vegiana/vegoanaLogo.png" width={220} height={50} alt="" />
+
           </div>
-          <p className="md:text-paragraphDesktop text-white font-medium pt-8 text-mobParagraph px-desktop md:px-2 text-center md:text-left">
+          <p className="text-sm md:text-paragraphDesktop text-white font-medium pt-8 text-mobParagraph px-desktop md:px-2 text-center md:text-left">
             {t("title")}
           </p>
           {!isMobile && (

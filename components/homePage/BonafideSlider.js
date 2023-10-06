@@ -61,7 +61,7 @@ export default function BonafideSlider() {
     <div className="w-full md:w-full h-[145vh] lg:h-1/3 md:h-1/2 relative overflow-hidden bg-white">
       <div className="absolute w-full h-full top-0 sliders-background opacity-10"></div>
       <div className="w-full h-[80%] bg-orange-main flex md:flex-row flex-col md:items-center">
-        <div className="md:ml-desktop py-desktop md:w-1/3 w-screen md:flex-col items-center md:items-start pt-24">
+        <div className="md:ml-desktop py-desktop md:w-1/3 w-screen md:flex-col items-center md:items-start text-sm">
           {/* logo */}
           <div className="w-full flex justify-center md:justify-start">
             <svg

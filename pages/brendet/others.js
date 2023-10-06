@@ -22,6 +22,7 @@ const Others = () => {
           tags: ["100GR", "200GR", "500GR", "1000GR"],
           left: true,
           bottom: true,
+          specific:"/brendet/besiana/sodeBikarboni74.png"
         },
         {
           id: 2,
@@ -33,6 +34,7 @@ const Others = () => {
           tags: ["250GR", "500GR", "1000GR"],
           left: false,
           bottom: false,
+          specific:"/brendet/besiana/Patate_Pire.png"
         }
       ];
 

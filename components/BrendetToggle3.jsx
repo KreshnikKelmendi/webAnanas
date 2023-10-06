@@ -26,7 +26,7 @@ const BrendetToggle3 = ({ data, text, color, logo, mini, v2 }) => {
             </div> */}
             <div
               className="text-white md:w-2/3 lg:w-1/2 2xl:w-2/3 text-center md:pt-4 lg:mt-10
-          px-1 md:px-0 md:text-[1.8vw] lg:text-[2.2vw] uppercase 2xl:text-[3vw] 2xl:pt-10 w-3/4"
+          px-1 md:px-0 text-[7vw] md:text-[1.8vw] lg:text-[2.2vw] uppercase 2xl:text-[3vw] 2xl:pt-10 w-3/4"
             >
               <p>{text}</p>
             </div>
@@ -88,6 +88,7 @@ const BrendetToggle3 = ({ data, text, color, logo, mini, v2 }) => {
                   tags={item.tags}
                   left={item.left}
                   bottom={item.bottom}
+                  specific={item.specific}
                   fill={item.fill}
                   mini={item.mini ?? false}
                 />

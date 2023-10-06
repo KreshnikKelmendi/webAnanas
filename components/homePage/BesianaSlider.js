@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 //componenets
 import BannerBlob from "../BannerBlob";
@@ -22,17 +22,17 @@ export default function BesianaSlider() {
     },
     {
       id: "02",
-      title: t("s2Header"),
-      description: t("s2Text"),
-      variants: ["250g", "500g", "1000g"],
-      image: "/sliderAssets/piper50gr.png",
-    },
-    {
-      id: "03",
       title: t("s3Header"),
       description: t("s3Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/shtypurSpecBesiana.png",
+    },
+    {
+      id: "03",
+      title: t("s2Header"),
+      description: t("s2Text"),
+      variants: ["250g", "500g", "1000g"],
+      image: "/sliderAssets/piper50gr.png",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function BesianaSlider() {
         <div className="md:ml-desktop py-desktop md:w-1/3 w-screen md:flex-col items-center md:items-start pt-24 ">
           {/* logo */}
           <div className="w-full flex justify-center md:justify-start">
-            <svg
+            {/* <svg
               width="145"
               height="65"
               viewBox="0 0 145 65"
@@ -90,7 +90,9 @@ export default function BesianaSlider() {
                   <rect width="145" height="65" fill="white" />
                 </clipPath>
               </defs>
-            </svg>
+            </svg> */}
+                <Image src="/brendet/besiana/besianaLogo.png" width={220} height={50} alt="" />
+
           </div>
           <p className="md:text-paragraphDesktop text-white font-medium pt-8 text-mobParagraph px-desktop md:px-0 text-center md:text-left">
             {t("title")}

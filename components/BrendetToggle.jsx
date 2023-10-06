@@ -25,7 +25,7 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
               )}
             </div>
             <div
-              className=" text-white md:w-2/3 lg:w-1/2 2xl:w-2/3 text-center md:pt-4 lg:mt-10
+              className="text-white md:w-2/3 lg:w-1/2 2xl:w-2/3 text-center md:pt-4 lg:mt-10
           px-1 md:px-0 md:text-[1.8vw] lg:text-[1.1vw] 2xl:text-[1.2vw] 2xl:pt-10 w-3/4"
             >
               <p>{text}</p>
@@ -59,10 +59,10 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
             <div
               key={item.id}
               className={`relative w-full h-screen ${
-                item.bottom && isMobile && "h-[120vh]"
+                item.bottom && isMobile && ""
               } ${index === 0 && ""}`}
             >
-              <Image src={item.img} fill className={`object-cover`} alt="" />
+              <Image src={item.img} fill className='object-cover' alt="" />
               {v2 ? (
                 <BlobV2
                   color={item.color}
@@ -88,6 +88,8 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
                   koha={item.koha}
                   kohaM={item.koha}
                   sasia={item.sasia}
+                  secondSpecific={item.secondSpecific}
+                 
                 />
               ) : (
                 <BlobV1
@@ -97,6 +99,7 @@ const BrendetToggle = ({ data, text, color, logo, mini, v2 }) => {
                   tags={item.tags}
                   left={item.left}
                   bottom={item.bottom}
+                  specific={item.specific}
                   fill={item.fill}
                   mini={item.mini ?? false}
                 />
