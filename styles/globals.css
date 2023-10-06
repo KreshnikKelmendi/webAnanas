@@ -155,11 +155,10 @@ textarea {
   font-family: Ubuntu !important ;
 }
 .footer-background {
-  background-image: url(../public/footerBackground.svg);
+  background-color: var(--green-main);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
- 
 }
 
 .mask {

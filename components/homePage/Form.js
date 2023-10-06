@@ -115,7 +115,7 @@ const Form = ({ name, lName, email, phone, message, send }) => {
               </div>
               <input
                 type="submit"
-                className="button-red md:py-2 md:px-0 md:w-1/4 cursor-pointer md:text-paragraphDesktop text-mobParagraph py-8 px-8"
+                className="button-black md:py-2 md:px-0 md:w-1/4 cursor-pointer md:text-paragraphDesktop text-mobParagraph py-8 px-8"
                 value={send}
               />
             </form>

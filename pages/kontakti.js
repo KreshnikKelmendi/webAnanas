@@ -79,7 +79,7 @@ const Kontakti = () => {
                   </defs>
                 </svg>
 
-                <div className="  text-sm ">
+                <div className="text-sm">
                   <p>Zahir Pajaziti</p>
                   <p>Podujevë, Kosovë</p>
                 </div>
