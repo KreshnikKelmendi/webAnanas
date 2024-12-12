@@ -1,7 +1,6 @@
 {
   "workbench.colorCustomizations": {},
   "background.enabled": true,
-  "workbench.activityBar.visible": true,
   "workbench.activityBar.iconClickBehavior": "toggle",
   "workbench.startupEditor": "none",
   "editor.fontSize": 14,

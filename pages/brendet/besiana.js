@@ -79,6 +79,18 @@ const Besiana = () => {
     },
     {
       id: 2,
+      img: "/brendet/besiana/image (1).png",
+      color: "text-[#FFFFFF]",
+      fill: "none",
+      header: t("s3Header"),
+      text: t("desc1Text"),
+      tags: ["100GR", "200GR", "500GR", "1000GR"],
+      left: true,
+      bottom: true,
+      specific:"/brendet/besiana/shtypurSpecBesiana.png"
+    },
+    {
+      id: 3,
       img: "/brendet/besiana/besianaSpecBluar74.png",
       color: "text-[#FFFFFF]",
       fill: "none",
@@ -90,7 +102,7 @@ const Besiana = () => {
       specific:"/brendet/besiana/speciKuqBluar500.png"
     },
     {
-      id: 3,
+      id: 4,
       img: "/brendet/besiana/piper2023.png",
       color: "text-[#FFFFFF]",
       fill: "none",

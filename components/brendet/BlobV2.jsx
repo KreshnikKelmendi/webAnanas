@@ -168,7 +168,7 @@ const BlobV2 = ({
                 
                 <div className="absolute flex lg:right-[5vw] gap-6 2xl:bottom-[1vw] md:-bottom-[10vw] -bottom-[22vw] lg:bottom-0 lg:px-0 md:px-16 px-24 ">
                   {/* koha */}
-                  <div className="hidden sm:block flex flex-col items-center ">
+                  <div className="hidden sm:block flex-col items-center ">
                     <svg
                       width={isTablet ? "10vw" : "4vw"}
                       height={isTablet ? "10vw" : "4vw"}
@@ -195,7 +195,7 @@ const BlobV2 = ({
                   </div>
                   
                   {/* sasia */}
-                  <div className="hidden sm:block flex flex-col items-center ">
+                  <div className="hidden sm:block flex-col items-center ">
                     <svg
                       width={isTablet ? "10vw" : "4vw"}
                       height={isTablet ? "10vw" : "4vw"}
@@ -217,7 +217,7 @@ const BlobV2 = ({
                     
                   </div>
                   <div className="testimi2 lg:hidden">
-                      <Image src={secondSpecific} width={140} height={120} className=" specificPhoto2" alt="" />
+                      <Image src={secondSpecific} width={140} height={120} className="specificPhoto2" alt="" />
                     </div>
                 </div>
                

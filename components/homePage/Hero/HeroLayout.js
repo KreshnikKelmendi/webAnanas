@@ -62,9 +62,9 @@ const HeroLayout = () => {
               <MainButton
                 buttonClass={"button-white"}
                 text={buttonText}
-                textColor={"text-green-main"}
+                textColor={"text-black-main"}
                 hoverClass={"button-red"}
-                hoverText={"text-white"}
+                hoverText={"text-black"}
                 animate={true}
                 delay={0.5}
               />

@@ -33,37 +33,37 @@ export default function VegianaSlider() {
       description: t("s3Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/bluarKanelle.png",
-    },{
+    }, {
       id: "04",
       title: t("s4Header"),
       description: t("s4Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/origanoVegiana.png",
-    },{
+    }, {
       id: "05",
       title: t("s5Header"),
       description: t("s5Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/rozmarine.png",
-    },{
+    }, {
       id: "06",
       title: t("s6Header"),
       description: t("s6Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/Kerry_Pluhur.png",
-    },{
+    }, {
       id: "07",
       title: t("s7Header"),
       description: t("s7Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/Hudher.png",
-    },{
+    }, {
       id: "08",
       title: t("s8Header"),
       description: t("s8Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/xhenxhefili.png",
-    }
+    },
   ];
 
   return (
@@ -253,7 +253,7 @@ export default function VegianaSlider() {
                 </clipPath>
               </defs>
             </svg> */}
-                <Image src="/brendet/vegiana/vegoanaLogo.png" width={220} height={50} alt="" />
+            <Image src="/brendet/vegiana/vegoanaLogo.png" width={220} height={50} alt="" />
 
           </div>
           <p className="text-sm md:text-paragraphDesktop text-white font-medium pt-8 text-mobParagraph px-desktop md:px-2 text-center md:text-left">

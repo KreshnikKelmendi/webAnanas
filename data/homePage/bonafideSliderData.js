@@ -17,7 +17,7 @@ const bonafideSliderData = [
       },
       {
         id: "03",
-        title: "Biper i zi",
+        title: "Piper i zi",
         description:
           "Të ruhet në vend të thatë dhe të errët në temperaturë dhome 20°C. Analizuar dhe testuar nga Instituti Kombëtar i Shëndetit Publik të Kosovës dhe Agjencioni i Veterinarisë dhe Ushqimit të Kosovës. ",
         variants: ["250g", "500g", "1000g"],

@@ -54,7 +54,43 @@ export default function BonafideSlider() {
       description: t("s6Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/salceDomatesh.png",
+    },
+    {
+      id: "07",
+      title: t("s7Header"),
+      description: t("s7Text"),
+      variants: ["60g", "500g", "1000g"],
+      image: "/sliderAssets/krem-supe-brokoli.png",
+    },
+    {
+      id: "08",
+      title: t("s8Header"),
+      description: t("s8Text"),
+      variants: ["60g", "500g", "1000g"],
+      image: "/sliderAssets/krem-supe-domate.png",
+    },
+    {
+      id: "09",
+      title: t("s9Header"),
+      description: t("s9Text"),
+      variants: ["60g", "500g", "1000g"],
+      image: "/sliderAssets/krem-supe-kerpudhe.png",
+    },
+    {
+      id: "10",
+      title: t("s10Header"),
+      description: t("s10Text"),
+      variants: ["60g", "500g", "1000g"],
+      image: "/sliderAssets/krem-supe-perime.png",
+    },
+    {
+      id: "11",
+      title: t("s11Header"),
+      description: t("s11Text"),
+      variants: ["60g", "500g", "1000g"],
+      image: "/sliderAssets/krem-supe-pule.png",
     }
+    
   ];
 
   return (
@@ -120,7 +156,7 @@ export default function BonafideSlider() {
             {t('title')}
           </p>
           {!isMobile && (
-            <div className="w-full flex justify-center md:justify-start pt-10 md:pt-0">
+            <div className="w-full flex justify-center md:justify-start pt-10 md:pt-0 lg:pt-6">
               <Link href="/brendet/bonafide">
                 <MainButton
                   text={t("readMore")}
