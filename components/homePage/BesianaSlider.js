@@ -22,13 +22,20 @@ export default function BesianaSlider() {
     },
     {
       id: "02",
+      title: t("s4Header"),
+      description: t("s4Text"),
+      variants: ["250g", "500g", "1000g"],
+      image: "/sliderAssets/i pa djegst.png",
+    },
+    {
+      id: "03",
       title: t("s3Header"),
       description: t("s3Text"),
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/shtypurSpecBesiana.png",
     },
     {
-      id: "03",
+      id: "04",
       title: t("s2Header"),
       description: t("s2Text"),
       variants: ["250g", "500g", "1000g"],

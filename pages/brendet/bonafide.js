@@ -261,12 +261,12 @@ const Bonafide = () => {
       natriumiV: t('natriumiV'),
       koha: t('koha'),
       sasia: t('sasia'),
-      secondSpecific:"/brendet/bonafide/salceDomatesh.png"
+      secondSpecific:"/brendet/bonafide/krem-supe-brokoli.png"
     },
     {
       id: 8,
       img: "/brendet/bonafide/domate.png",
-      color: "text-[#00000]",
+      color: "text-[#FFFFFF]",
       fill: "#4F2C15",
       header: t("s8Header"),
       header1: t('vleraU'),
@@ -291,12 +291,12 @@ const Bonafide = () => {
       natriumiV: t('natriumiV'),
       koha: t('koha'),
       sasia: t('sasia'),
-      secondSpecific:"/brendet/bonafide/salceDomatesh.png"
+      secondSpecific:"/brendet/bonafide/krem-supe-domate.png"
     },
     {
       id: 9,
       img: "/brendet/bonafide/kerpudhe.png",
-      color: "text-[#00000]",
+      color: "text-[#FFFFFF]",
       fill: "#4F2C15",
       header: t("s9Header"),
       header1: t('vleraU'),
@@ -321,7 +321,7 @@ const Bonafide = () => {
       natriumiV: t('natriumiV'),
       koha: t('koha'),
       sasia: t('sasia'),
-      secondSpecific:"/brendet/bonafide/salceDomatesh.png"
+      secondSpecific:"/brendet/bonafide/krem-supe-kerpudhe.png"
     },
     {
       id: 10,
@@ -351,7 +351,7 @@ const Bonafide = () => {
       natriumiV: t('natriumiV'),
       koha: t('koha'),
       sasia: t('sasia'),
-      secondSpecific:"/brendet/bonafide/salceDomatesh.png"
+      secondSpecific:"/brendet/bonafide/krem-supe-perime.png"
     },
     {
       id: 11,
@@ -381,7 +381,7 @@ const Bonafide = () => {
       natriumiV: t('natriumiV'),
       koha: t('koha'),
       sasia: t('sasia'),
-      secondSpecific:"/brendet/bonafide/salceDomatesh.png"
+      secondSpecific:"/brendet/bonafide/krem-supe-pule.png"
     }
   ];
 

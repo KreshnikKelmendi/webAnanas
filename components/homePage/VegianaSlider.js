@@ -64,6 +64,13 @@ export default function VegianaSlider() {
       variants: ["250g", "500g", "1000g"],
       image: "/sliderAssets/xhenxhefili.png",
     },
+    {
+      id: "09",
+      title: t("s10Header"),
+      description: t("s10Text"),
+      variants: ["250g", "500g", "1000g"],
+      image: "/sliderAssets/pjekjePule-mockup.png",
+    }
   ];
 
   return (

@@ -248,6 +248,18 @@ const Vegiana = () => {
       left: true,
       bottom: true,
       specific:"/brendet/vegiana/bluarKanelle.png"
+    },
+    {
+      id: 7,
+      img: "/brendet/vegiana/pjekjePule.png",
+      color: "text-[#FFFFFF]",
+      fill: "none",
+      header: t("s10Header"),
+      text: t("seventhVegoanaBrand"),
+      tags: ["200GR", "500GR", "1000GR"],
+      left: true,
+      bottom: true,
+      specific:"/brendet/vegiana/pjekjePule-mockup.png"
     }
   ];
 

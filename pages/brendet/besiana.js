@@ -83,11 +83,11 @@ const Besiana = () => {
       color: "text-[#FFFFFF]",
       fill: "none",
       header: t("s3Header"),
-      text: t("desc1Text"),
+      text: t("desc4Text"),
       tags: ["100GR", "200GR", "500GR", "1000GR"],
       left: true,
       bottom: true,
-      specific:"/brendet/besiana/shtypurSpecBesiana.png"
+      specific:"/brendet/besiana/i pa djegst.png"
     },
     {
       id: 3,
