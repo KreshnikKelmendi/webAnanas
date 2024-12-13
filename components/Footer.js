@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="overflow-x-hidden">
       <footer
-        className={` ${isMobile ? "footerBgMobile" : "footer-background"
+        className={` ${isMobile ? "footerBgMobile bg-[#67AE3E]" : "footer-background"
           } w-full lg:h-[35vw] md:h-[50vh] flex md:flex-row flex-col-reverse relative items-center md:items-start justify-between md:px-desktop h-[80vh] overflow-x-hidden ${isRN && "bg-red-main"
           }`}
       >
@@ -116,7 +116,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-10 gap-3 lg:pt-[10vw] lg:h-[35vw] lg:items-start h-[40vh] md:px-0 pt-44 md:pt-20 justify-items-start lg:px-10 md:justify-items-center px-8 ">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-3 lg:pt-[10vw] lg:h-[35vw] lg:items-start h-[40vh] md:px-0 pt-24 md:pt-20 justify-items-start lg:px-10 md:justify-items-center px-8 ">
           {/* phone */}
           <div className="flex flex-row md:flex-col items-center lg:col-span-2  col-span-5 ">
             <svg
